@@ -90,7 +90,7 @@ main {
   display: flex;
   gap: 40px;
 }
-.nav-menu-link:hover,
+
 .address-list-link:hover {
   color: var(--ocean) 
 } 
@@ -99,6 +99,34 @@ main {
   font-size: 16px;
   line-height: 24px;
 }
+
+.nav-menu-item {
+position: relative;
+}
+
+
+.nav-menu-item:hover .nav-menu-link::after {
+width: 100%;
+
+
+}
+.nav-menu-item:hover .nav-menu-link {
+color: var(--ocean) 
+
+}
+
+.nav-menu-link::after {
+content: '';
+height: 4px;
+width: 0;
+background-color: var(--ocean);
+border-radius: 2px;
+position: absolute;
+left: 0;
+bottom: -25px;
+}
+
+
 .nav-menu {
   display: inline-flex;
   gap: 76px;
@@ -178,10 +206,6 @@ button {
   background: var(--white);
   display: block;
   padding-top: 120px;
-}
-
-
-
 }
 .features-list { 
   background: var(--white);
@@ -334,6 +358,42 @@ text-transform: capitalize;
   align-items: center;
   column-gap:24px;
 }
+
+.customer-icon {
+display: block;
+width: 168px;
+height: 88px;
+
+  fill: currentColor ;
+ 
+ 
+
+}
+
+
+.customer-item-lists {
+  border: 1px solid var(--lightslate);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2 1);
+  border-radius: 4px;
+
+}
+
+.customer-item-lists:hover {
+ border: var(--ocean); 
+}
+
+.customer-item-lists:hover .customer-item-link {
+color: var(--ocean);
+
+}
+
+
+.customer-item-link {
+  color: var(--lightslate);
+  
+}
+
+
 .header-customer {
   padding-top: 120px;
   padding-bottom: 120px;
