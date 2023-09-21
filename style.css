@@ -184,13 +184,13 @@ bottom: -25px;
    margin: 0 auto;
 }
 .features-list-icon {
-height: 112px;
-width: 100%;
-border-radius: 4px 4px 0px 0px;
-background: var(--cloud);
-display: flex;
-justify-content: center;
-align-items: center;
+  height: 112px;
+  width: 100%;
+  border-radius: 4px 4px 0px 0px;
+  background: var(--cloud);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 button {
   font-family: inherit;
@@ -249,7 +249,7 @@ button {
   line-height: 40px; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
- display: flex;
+  display: flex;
   margin-bottom: 76px;
   justify-content: center;
 }
@@ -262,7 +262,7 @@ button {
 }
 .section-team {
   background: var(--cloud);
-padding: 120px 0;
+  padding: 120px 0;
   flex-shrink: 0;
   display: block;
 }
@@ -340,14 +340,14 @@ img {
   fill: var(--white);
 }
 .customer {
-color: var(--navyblue);
-text-align: center;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: 40px; /* 111.111% */
-letter-spacing: 0.72px;
-text-transform: capitalize;
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
 
 .costumer-item {
@@ -359,15 +359,11 @@ text-transform: capitalize;
   column-gap:24px;
 }
 
-.customer-icon {
-display: block;
-width: 168px;
-height: 88px;
-
+svg {
+  display: block;
+  width: 168px;
+  height: 88px;
   fill: currentColor ;
- 
- 
-
 }
 
 
@@ -470,3 +466,5 @@ color: var(--ocean);
 
  padding-left: 120px;
 }
+
+
